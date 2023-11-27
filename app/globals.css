@@ -10,9 +10,8 @@
   --bg-primary: #0c0c0c;
   --bg-secondary: #181818;
 
-  --contrast-primary: #ea638c
-
-  --text-primary: ##EEEBD0;
+  --contrast-primary: #ea638c --text-primary: ##EEEBD0;
+  --text-secondary: rgb(114, 108, 108);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -25,10 +24,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
