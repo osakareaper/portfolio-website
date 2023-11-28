@@ -1,3 +1,4 @@
+import AboutSection from '@/components/AboutSection'
 import HeroSection from '@/components/HeroSection'
 import Navbar from '@/components/Navbar'
 import Image from 'next/image'
@@ -12,6 +13,8 @@ export default function Home() {
         {/* Container */}
 
         <HeroSection />
+
+        <AboutSection />
 
       </div>
 

@@ -11,7 +11,7 @@ const HeroSection = () => {
       <div className="grid grid-cols-1 md:grid-cols-12">
         {/* Grid que divide a hero section */}
 
-        <div className="col-span-7 place-self-center text-center md:text-left">
+        <div className="col-span-7 place-self-center text-center">
           {/* 7 span of 12 for first section*/}
 
           <h1 className='text-[--text-primary] mb-4 text-4xl lg:text-5xl font-extrabold'>
