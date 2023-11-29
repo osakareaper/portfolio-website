@@ -98,7 +98,7 @@ const AboutSection = () => {
 
           <p
             className='text-base lg:text-lg'>
-            I'm obssessed with art and creating things.
+            I&apos;m obssessed with art and creating things.
           </p>
 
           <div className='flex flex-row mt-8'>
