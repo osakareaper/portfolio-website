@@ -51,7 +51,7 @@ const HeroSection = () => {
 
             <button className='w-full md:w-fit px-1 py-1 rounded-full bg-gradient-to-br from-[#ec5389] to-[#f0256c] hover:bg-[--contrast-primary] text-[--text-primary] mt-4'>
 
-              <span className='block bg-[--bg-primary] hover:bg-[--contrast-primary] rounded-full px-6 py-4'>
+              <span className='block bg-[--bg-primary] hover:bg-gradient-to-br from-[#ec5389] to-[#f0256c]  rounded-full px-6 py-4'>
                 Download CV
               </span>
 

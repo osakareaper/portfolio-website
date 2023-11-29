@@ -10,7 +10,10 @@
   --bg-primary: #0c0c0c;
   --bg-secondary: #181818;
 
-  --contrast-primary: #ea638c --text-primary: ##EEEBD0;
+  --contrast-primary: #ea638c;
+  --contrast-secondary: #f0256c;
+
+  --text-primary: ##EEEBD0;
   --text-secondary: rgb(114, 108, 108);
 }
 
