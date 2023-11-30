@@ -72,25 +72,26 @@ const AboutSection = () => {
 
       <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
 
-        <div className='relative h-full pt-28'>
-          <Image
-            src={"/about-me.gif"}
-            alt='About Me GIF'
-            className='rounded-md grayscale w-[220px] h-[120px] sm:w-[220px] sm:h-[160px] lg:w-[250px] lg:h-[210px] absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
-            width={250}
-            height={250}
-          />
-
-          <Image
-            src={"/tv.png"}
-            alt='TV Png'
-            className='rounded-md grayscale w-[230px] h-[150px] sm:w-[300px] sm:h-[200px] lg:w-[420px] lg:h-[250px] absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
-            width={250}
-            height={250}
-          />
+        <div className='hidden md:block'>
+          <div className='relative h-full pt-28'>
+            <Image
+              src={"/about-me.gif"}
+              alt='About Me GIF'
+              className='rounded-md grayscale w-[0px] h-[0px] sm:w-[220px] sm:h-[160px] lg:w-[250px] lg:h-[210px] absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
+              width={250}
+              height={250}
+            />
+            <Image
+              src={"/tv.png"}
+              alt='TV Png'
+              className='rounded-md grayscale w-[0px] h-[0px] sm:w-[300px] sm:h-[200px] lg:w-[420px] lg:h-[250px] absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
+              width={250}
+              height={250}
+            />
+          </div>
         </div>
 
-        <div className='mt-16 sm:mt-24 md:mt-0 text-left flex flex-col h-full'>
+        <div className='mt-0 text-left flex flex-col h-full'>
           <h2
             className='text-4xl font-bold text-[--text-primary] mb-4'>
             About Me
