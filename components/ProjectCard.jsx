@@ -5,8 +5,7 @@ import Link from "next/link";
 const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
   return (
 
-    <div
-      className='p-4'>
+    <div>
 
       <div
         className="h-52 md:h-72 rounded-t-xl relative group"
@@ -38,7 +37,6 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
 
       </div>
 
-
       <div
         className='text-[--text-primary] rounded-b-xl bg-[--bg-secondary] py-4 px-4'>
 
@@ -53,7 +51,6 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
         </p>
 
       </div>
-
 
     </div>
 

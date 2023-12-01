@@ -34,6 +34,36 @@ const projectsData = [
     previewUrl: "/",
   },
 
+  {
+    id: 4,
+    title: "Project 4",
+    description: "Project 4 Desc",
+    image: "/images/projects/project04.jpg",
+    tag: ["All", "Mobile"],
+    gitUrl: "https://github.com/osakareaper",
+    previewUrl: "/",
+  },
+
+  {
+    id: 5,
+    title: "Project 5",
+    description: "Project 5 Desc",
+    image: "/images/projects/project05.jpg",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/osakareaper",
+    previewUrl: "/",
+  },
+
+  {
+    id: 6,
+    title: "Project 6",
+    description: "Project 6 Desc",
+    image: "/images/projects/project06.jpg",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/osakareaper",
+    previewUrl: "/",
+  },
+
 ]
 
 const ProjectsSection = () => {
@@ -82,16 +112,17 @@ const ProjectsSection = () => {
 
       <div>
 
-        <div>{projectsData.map((project) => (
-          <ProjectCard
-            key={project.id}
-            title={project.title}
-            description={project.description}
-            imgUrl={project.image}
-            gitUrl={project.gitUrl}
-            previewUrl={project.previewUrl}
-          />
-        ))}
+        <div className='grid md:grid-cols-3 gap-8 md:gap-12'>
+          {projectsData.map((project) => (
+            <ProjectCard
+              key={project.id}
+              title={project.title}
+              description={project.description}
+              imgUrl={project.image}
+              gitUrl={project.gitUrl}
+              previewUrl={project.previewUrl}
+            />
+          ))}
         </div>
 
       </div>
